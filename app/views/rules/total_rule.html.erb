@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="row">
+		<%@law.each do|r|%>
+		<div class="col-md-10">
+			<%=r.law%>
+		</div>
+		<div class="col-md-2"><a href="/rules/delete_rule?id=<%=r.id%>">delete</a></div>
+	<%end%>
+	</div>
+	
+	
+	
+	
+</div>
